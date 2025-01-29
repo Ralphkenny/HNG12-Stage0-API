@@ -1,0 +1,6 @@
+@HNGApi__0__HostAddress = http://localhost:5228
+
+GET {{HNGApi__0__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
