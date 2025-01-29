@@ -4,14 +4,14 @@ using static System.Net.WebRequestMethods;
 
 namespace HNGApi__0_.Controllers
 {
-    [Route("api/info")]
+    [Route("api/[controller]")]
     [ApiController]
     public class InfoController : ControllerBase
     {
         [HttpGet]
         public IActionResult GetInfo()
         {
-            var response = new
+            var response = new WeatherForecast
             {
                 email = "Kennedyokpala12@gmail.com",
                 current_datetime = DateTime.UtcNow.ToString("o"),

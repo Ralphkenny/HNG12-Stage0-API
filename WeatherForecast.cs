@@ -2,12 +2,8 @@ namespace HNGApi__0_
 {
     public class WeatherForecast
     {
-        public DateOnly Date { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-
-        public string? Summary { get; set; }
+        public string email { get; set; }
+        public string current_datetime { get; set; }
+        public string github_url { get; set; }
     }
 }
