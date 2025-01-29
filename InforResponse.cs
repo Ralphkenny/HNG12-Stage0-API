@@ -1,6 +1,6 @@
 namespace HNGApi__0_
 {
-    public class WeatherForecast
+    public class InforResponse
     {
         public string email { get; set; }
         public string current_datetime { get; set; }

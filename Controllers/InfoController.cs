@@ -11,7 +11,7 @@ namespace HNGApi__0_.Controllers
         [HttpGet]
         public IActionResult GetInfo()
         {
-            var response = new WeatherForecast
+            var response = new InforResponse
             {
                 email = "Kennedyokpala12@gmail.com",
                 current_datetime = DateTime.UtcNow.ToString("o"),

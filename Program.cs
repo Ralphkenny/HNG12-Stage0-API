@@ -15,6 +15,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://*:{port}");
+
+app.MapGet("/", () => "Hello, World!");
+app.MapControllers(); // Ensure controllers are mapped
+
 
 //app.UseHttpsRedirection();
 
