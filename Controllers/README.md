@@ -1,5 +1,4 @@
-# HNGApi (0)
-# HNG Stage 0 Backend Task
+﻿# HNG Stage 0 Backend Task
 
 ## Description
 This is a simple public API that returns basic information in JSON format, including:
