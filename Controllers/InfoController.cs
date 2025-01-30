@@ -14,7 +14,7 @@ namespace HNGStage0.Controllers
             {
                 email = "kennedyokpala12@gmail.com",
                 current_datetime = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"),
-                github_url = "https://github.com/Ralphkenny"
+                github_url = "https://github.com/Ralphkenny/HNG12-Stage0-API"
 
             };
 
