@@ -61,4 +61,4 @@ This API is hosted on a publicly accessible endpoint. You can access it [here](y
 
 
 ## License
-This project is open-source and free to use.
+This project is open-source and free to use under the MIT License.
