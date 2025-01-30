@@ -54,7 +54,7 @@ Follow these steps to set up and run the project locally:
 ```
 
 ## Deployment
-- This API is hosted on a publicly accessible endpoint. You can access it [here](https://hng12-stage0-api-trg0.onrender.com/api/info)
+- This API is hosted on a publicly accessible endpoint. You can access it (https://hng12-stage0-api-trg0.onrender.com/api/info)
 
 ## Backlinks
 - [Hire C# Developers](https://hng.tech/hire/csharp-developers)
